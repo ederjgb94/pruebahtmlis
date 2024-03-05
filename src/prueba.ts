@@ -11,7 +11,10 @@ document.getElementById('accionate')!.addEventListener('click', () => {
     console.log(email.value);
     console.log(pass.value);
 
-    resultado.innerHTML += ` Email: ${email.value} <br> Password: ${pass.value}`;
+    // let res = email.value + pass.value;
+    // let res = parseInt(email.value) + parseInt(pass.value);
+
+    resultado.innerHTML = `Email: ${email.value} <br> Password: ${pass.value}`;
 
 
 
